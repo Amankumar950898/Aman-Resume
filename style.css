@@ -1,0 +1,28 @@
+img {
+    display: block;
+    border: 5px solid black;
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto;
+}
+
+@media (max-width: 480px) {
+    img {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    img {
+        max-width: 80%;
+        margin: 15px auto;
+    }
+}
+
+@media (min-width: 769px) {
+    img {
+        max-width: 500px;
+        margin: 20px auto;
+    }
+}
